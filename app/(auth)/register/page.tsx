@@ -14,11 +14,8 @@ export default function Register() {
         <div className="flex min-h-screen justify-center items-center">
                 <div className="border rounded-xl h-auto w-[350px] px-8 py-8 flex flex-col gap-4">
                     <div className="flex-rol flex gap-4 w-full ">
-                    <Button className="w-full" variant={'outline'} size={"lg"}>
-                        <FaDiscord className="h-6 w-6" />
-                    </Button>
-                    <Button className="w-full" variant={'outline'} size={"lg"}>
-                        <FaSpotify className="h-6 w-6" />
+                    <Button className="w-full" variant={'outline'} size={"lg"} asChild>
+                      <Link href='http://localhost:8000/v1/account-link/discord'>  <FaDiscord className="h-6 w-6" /> </Link>
                     </Button>
                     <Button className="w-full" disabled variant={'outline'} size={"lg"}>
                         <FaApple className="h-6 w-6" />
