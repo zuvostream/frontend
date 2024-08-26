@@ -1,5 +1,5 @@
 # catpics.xyz
-also known as I don't know what to do with the 1 year left on the domain so I'm trying to make an open source version of last.fm
+also known as I don't know what to do with the 1 year left on the domain so I'm trying to make a music service
 
 ## Getting Started
 
