@@ -54,7 +54,7 @@ export default function Header() {
         <nav className="sticky insert-x-0 top-0 z-30 border-b w-full h-14 backdrop-blur-lg transition-all">
             <MaxWidthWrapper>
                 <div className="flex h-14 items-center justify-between border-b">
-                    <Link className="flex z-40 font-semibold transition-all hover:text-primary" href='/'>catpics</Link>
+                    <Link className="flex z-40 font-semibold transition-all hover:text-primary uppercase" href='/'>zuvo</Link>
                     {isSuccess ? (
                         <DropdownMenu>
                             <DropdownMenuTrigger>
@@ -80,7 +80,7 @@ export default function Header() {
                             </DropdownMenuContent>
                         </DropdownMenu>
                     ) : (
-                        <Link href='/' className={buttonVariants({
+                        <Link href='/register' className={buttonVariants({
                             variant: "default",
                             size: "sm"
                         })}>Get Started</Link>

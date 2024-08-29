@@ -30,7 +30,7 @@ export default function Login() {
 
       let result = await response.json();
       if (result.success) {
-        router.push(`/user/${username}`);
+        router.push(`/library`);
       } else {
         console.error('Failed to sign in:', result.message);
       }

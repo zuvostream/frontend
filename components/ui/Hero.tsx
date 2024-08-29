@@ -26,7 +26,7 @@ export default function Hero() {
           }}
           transition={{ duration: 1, ease: "easeInOut" }}
         className="pt-8">
-        <Image className="rounded-2xl  border-primary" src='https://github.com/zhichaoh/catppuccin-wallpapers/blob/main/misc/windows-error.jpg?raw=true' height="1920" width="1080" alt="" />
+        <Image className="rounded-2xl shadow-2xl border border-primary shadow-primary" src={'/library.png'} height="1920" width="1080" alt="" />
 </motion.div>
       </div>
     </MaxWidthWrapper> 

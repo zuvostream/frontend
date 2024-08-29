@@ -2,21 +2,16 @@ import Link from "next/link";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 
 export default function UserHeader() {
-    let Links = [
-        { label: 'Home', href: '/' },
-    ]
-    
-    return(
-        <div className="sticky insert-x-0 top-0 z-30 border-b w-full h-14 backdrop-blur-lg transition-all">
+    return (
+        <nav className=" z-30 border-b w-full h-14 backdrop-blur-lg transition-all">
             <MaxWidthWrapper>
-                <div className="flex items-center space-x-4 h-full">
-                {Links.map((link) => (
-                        <Link key={link.href} href={link.href}>
-                                {link.label}
-                        </Link>
-                    ))}
+                <div className="flex h-14 items-center justify-between">
+                    <Link className="flex z-40 font-semibold transition-all hover:text-primary uppercase" href='/'>
+                        zuvo
+                    </Link>
+                    {/* Add other navbar items here */}
                 </div>
-</MaxWidthWrapper>
-        </div>
-    )
+            </MaxWidthWrapper>
+        </nav>
+    );
 }

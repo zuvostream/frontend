@@ -1,10 +1,11 @@
 export interface Project {
-    id: number;
-    title: string;
-    visibility: string;
-    image: string;
-    createdAt: string;
-    updatedAt: string;
+    Id: number;
+    Title: string;
+    Creator: string;
+    Visibility: string;
+    Image: string;
+    CreatedAt: string;
+    UpdatedAt: string;
 }
 
 export interface User {
